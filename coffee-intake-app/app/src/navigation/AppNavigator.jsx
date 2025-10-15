@@ -2,10 +2,10 @@ import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
-import Login from "../pages/Login";
-import Home from "../pages/Home";
-import AddIntake from "../pages/AddIntake";
-import Stats from "../pages/Stats";
+import Login from "../screens/Login";
+import Home from "../screens/Home";
+import AddIntake from "../screens/AddIntake";
+import Stats from "../screens/Stats";
 import { RootStackParamList } from "../types/navigation";
 
 const Stack = createNativeStackNavigator();
